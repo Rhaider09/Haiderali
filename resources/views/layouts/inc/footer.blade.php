@@ -13,7 +13,7 @@
                 <div class="max-w-lg">
                     <p class="text-2xl text-gray-300 mb-8">I am a software developer who is excited about unique ideas
                         and helping others.</p>
-                    <a href="{{ url('cv') }}" class="bg-lime-500 group inline-flex py-4 space-x-2 px-7 rounded-xl text-interface-500 text-lg">
+                    <a href="{{ url('cv') }}" class="bg-sky-400 group inline-flex py-4 space-x-2 px-7 rounded-xl text-interface-500 text-lg">
                         <span>Download CV</span>
                         <svg class="transform transition  group-hover:translate-y-2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12.0008 3.5625C11.7939 3.56255 11.5955 3.64474 11.4493 3.79101C11.303 3.93728 11.2208 4.13565 11.2208 4.3425V13.2409L8.23783 10.2579C8.16539 10.1855 8.07939 10.1281 7.98475 10.0889C7.89011 10.0497 7.78867 10.0295 7.68623 10.0295C7.47935 10.0295 7.28095 10.1117 7.13467 10.258C6.9884 10.4043 6.90623 10.6027 6.90625 10.8096C6.90627 11.0165 6.98847 11.2149 7.13477 11.3612L11.4491 15.675C11.5955 15.8212 11.7939 15.9034 12.0008 15.9034C12.2076 15.9034 12.4061 15.8212 12.5524 15.675L16.8668 11.3604C17.0131 11.2142 17.0953 11.0158 17.0953 10.8089C17.0953 10.602 17.0131 10.4036 16.8669 10.2573C16.7206 10.111 16.5222 10.0288 16.3153 10.0288C16.1084 10.0287 15.91 10.1109 15.7637 10.2572L12.7808 13.2409V4.3425C12.7807 4.13565 12.6985 3.93728 12.5523 3.79101C12.406 3.64474 12.2076 3.56255 12.0008 3.5625Z" fill="#04091E"></path>
@@ -43,22 +43,22 @@
                         in advertising sector.
                     </p>
                     <div class="flex space-x-3 mt-7">
-                        <a href="https://wa.me/+923230436771" class="text-interface-200 hover:bg-lime-500 hover:text-interface-100 transition-all text-lg w-10 h-10 rounded-full bg-white bg-opacity-10 inline-flex justify-center items-center" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/+923230436771" class="text-interface-200 hover:bg--400 hover:text-interface-100 transition-all text-lg w-10 h-10 rounded-full bg-white bg-opacity-10 inline-flex justify-center items-center" target="_blank" rel="noopener noreferrer">
                             <i class="fa-brands fa-whatsapp"></i>
                         </a>
-                        <a href="https://github.com/Rhaider09" class="text-interface-200 hover:bg-lime-500 hover:text-interface-100 transition-all text-lg w-10 h-10 rounded-full bg-white bg-opacity-10 inline-flex justify-center items-center" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Rhaider09" class="text-interface-200 hover:bg--400 hover:text-interface-100 transition-all text-lg w-10 h-10 rounded-full bg-white bg-opacity-10 inline-flex justify-center items-center" target="_blank" rel="noopener noreferrer">
                             <i class="fa-brands fa-github"></i>
                         </a>
-                        <a href="https://stackoverflow.com/users/23036570/haider-ali" class="text-interface-200 hover:bg-lime-500 hover:text-interface-100 transition-all text-lg w-10 h-10 rounded-full bg-white bg-opacity-10 inline-flex justify-center items-center" target="_blank" rel="noopener noreferrer">
+                        <a href="https://stackoverflow.com/users/23036570/haider-ali" class="text-interface-200 hover:bg--400 hover:text-interface-100 transition-all text-lg w-10 h-10 rounded-full bg-white bg-opacity-10 inline-flex justify-center items-center" target="_blank" rel="noopener noreferrer">
                             <i class="fa-brands fa-stack-overflow"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/haider-ali-amjad-a89438236/" class="text-interface-200 hover:bg-lime-500 hover:text-interface-100 transition-all text-lg w-10 h-10 rounded-full bg-white bg-opacity-10 inline-flex justify-center items-center" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/haider-ali-amjad-a89438236/" class="text-interface-200 hover:bg--400 hover:text-interface-100 transition-all text-lg w-10 h-10 rounded-full bg-white bg-opacity-10 inline-flex justify-center items-center" target="_blank" rel="noopener noreferrer">
                             <i class="fa-brands fa-linkedin-in"></i>
                         </a>
-                        <a href="https://www.upwork.com/freelancers/~0154f6a664c6088549?mp_source=share" class="text-interface-200 hover:bg-lime-500 hover:text-interface-100 transition-all text-lg w-10 h-10 rounded-full bg-white bg-opacity-10 inline-flex justify-center items-center" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.upwork.com/freelancers/~0154f6a664c6088549?mp_source=share" class="text-interface-200 hover:bg--400 hover:text-interface-100 transition-all text-lg w-10 h-10 rounded-full bg-white bg-opacity-10 inline-flex justify-center items-center" target="_blank" rel="noopener noreferrer">
                             <i class="fa-brands fa-upwork"></i>
                         </a>
-                        <a href="https://www.fiverr.com/haider424337/write-any-script-in-html-css-javascript-react-js" class="text-interface-200 hover:bg-lime-500 hover:text-interface-100 transition-all text-lg w-10 h-10 rounded-full bg-white bg-opacity-10 inline-flex justify-center items-center" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.fiverr.com/haider424337/write-any-script-in-html-css-javascript-react-js" class="text-interface-200 hover:bg--400 hover:text-interface-100 transition-all text-lg w-10 h-10 rounded-full bg-white bg-opacity-10 inline-flex justify-center items-center" target="_blank" rel="noopener noreferrer">
                             <img width="50" height="50" src="https://img.icons8.com/ios/50/fiverr--v2.png" alt="fiverr--v2"/>
                         </a>
                     </div>
@@ -69,16 +69,16 @@
                     <nav>
                         <ul class="space-y-4">
                             <li>
-                                <a href="{{ url('/') }}" class="font-medium transition hover:text-lime-500 text-base text-white">Home</a>
+                                <a href="{{ url('/') }}" class="font-medium transition hover:text--400 text-base text-white">Home</a>
                             </li>
                             <li>
-                                <a href="{{ url('/services') }}" class="font-medium transition hover:text-lime-500 text-base text-white">Service</a>
+                                <a href="{{ url('/services') }}" class="font-medium transition hover:text--400 text-base text-white">Service</a>
                             </li>
                             <li>
-                                <a href="{{ url('/portfolio') }}" class="font-medium transition hover:text-lime-500 text-base text-white">Portfolio</a>
+                                <a href="{{ url('/portfolio') }}" class="font-medium transition hover:text--400 text-base text-white">Portfolio</a>
                             </li>
                             <li>
-                                <a href="{{ url('/contact') }}" class="font-medium transition hover:text-lime-500 text-base text-white">Contact Us</a>
+                                <a href="{{ url('/contact') }}" class="font-medium transition hover:text--400 text-base text-white">Contact Us</a>
                             </li>
                         </ul>
                     </nav>
@@ -177,7 +177,7 @@
                         @csrf
                         <div class="relative w-full">
                             <input type="email" name="email" class="rounded-lg w-full border-0 focus:ring-1 focus:ring-lime-500 p-4 bg-[#363A4B] text-white" placeholder="Email address">
-                            <button type="submit" onclick="this.disabled=true;this.form.submit();" class="bg-lime-500 right-0 font-medium absolute text-interface-100 rounded-r-lg p-4">Subscribe</button>
+                            <button type="submit" onclick="this.disabled=true;this.form.submit();" class="bg-sky-400 right-0 font-medium absolute text-interface-100 rounded-r-lg p-4">Subscribe</button>
                         </div>
                     </form>
                 </div>

@@ -409,7 +409,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
                 <div class="group">
                     <a href="https://stackoverflow.com/users/9432459/sayed-bilal-hussain" target="_blank"
-                        class="group-hover:bg-lime-500 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
+                        class="group-hover:bg-sky-400 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
                         <i class="fa-brands fa-stack-overflow text-white text-5xl"></i>
                         <span class="text-white transition-all group-hover:text-interface-100 text-2xl font-semibold">S.
                             Overflow</span>
@@ -417,7 +417,7 @@
                 </div>
                 <div class="group">
                     <a href="https://github.com/Rhaider09" target="_blank"
-                        class="group-hover:bg-lime-500 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
+                        class="group-hover:bg-sky-400 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
                         <i class="fa-brands fa-github text-white text-5xl"></i>
                         <span
                             class="text-white transition-all group-hover:text-interface-100 text-2xl font-semibold">Github</span>
@@ -425,7 +425,7 @@
                 </div>
                 <div class="group">
                     <a href="https://www.upwork.com/freelancers/~0154f6a664c6088549?mp_source=share" target="_blank"
-                        class="group-hover:bg-lime-500 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
+                        class="group-hover:bg-sky-400 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
                         <i class="fa-brands fa-upwork text-white text-5xl"></i>
                         <span
                             class="text-white transition-all group-hover:text-interface-100 text-2xl font-semibold">Upwork</span>
@@ -433,7 +433,7 @@
                 </div>
                 <div class="group">
                     <a href="https://www.fiverr.com/s/XLmj6XP" target="_blank"
-                        class="group-hover:bg-lime-500 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
+                        class="group-hover:bg-sky-400 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
                         <img width="50" height="50" src="https://img.icons8.com/ios/50/fiverr--v2.png" alt="fiverr--v2" style="filter: brightness(0) invert(1);"/>
                         <span
                             class="text-white transition-all group-hover:text-interface-100 text-2xl font-semibold">Fiverr</span>
@@ -442,7 +442,7 @@
 
                 <div class="group">
                     <a href="https://www.linkedin.com/in/haider-ali-amjad-a89438236/" target="_blank"
-                        class="group-hover:bg-lime-500 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
+                        class="group-hover:bg-sky-400 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
                         <i class="fa-brands fa-linkedin text-white text-5xl"></i>
                         <span
                             class="text-white transition-all group-hover:text-interface-100 text-2xl font-semibold">Linkedin</span>

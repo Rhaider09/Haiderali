@@ -24,7 +24,7 @@
                         services.
                     </p>
                     <div class="flex items-center gap-8 mt-10">
-                        <a href="{{ url('contact') }}" class="bg-lime-500 text-interface-100 px-6 py-4 rounded-lg inline-flex justify-center items-center hover:bg-lime-600 font-medium transition-all">
+                        <a href="{{ url('contact') }}" class="bg-sky-400 text-interface-100 px-6 py-4 rounded-lg inline-flex justify-center items-center hover:bg-lime-600 font-medium transition-all">
                             <span>Hire Me</span>
 
                             {{-- <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
@@ -54,7 +54,7 @@
                     <div class="pt-14">
                         <p class="text-base text-interface-200">
                             Over
-                            <span class="text-lime-300 font-semibold text-xl">1000+ client</span>
+                            <span class="text-sky-300 font-semibold text-xl">1000+ client</span>
                             all over the world.
                         </p>
                     </div>
@@ -76,33 +76,32 @@
         <div class="mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
                 <div class="group">
-                    <a href="https://stackoverflow.com/users/23036570/haider-ali" target="_blank" class="group-hover:bg-lime-500 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
+                    <a href="https://stackoverflow.com/users/23036570/haider-ali" target="_blank" class="group-hover:bg-sky-400 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
                         <i class="fa-brands fa-stack-overflow text-white text-5xl"></i>
                         <span class="text-white transition-all group-hover:text-interface-100 text-2xl font-semibold">S. Overflow</span>
                     </a>
                 </div>
                 <div class="group">
-                    <a href="https://github.com/Rhaider09" target="_blank" class="group-hover:bg-lime-500 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
+                    <a href="https://github.com/Rhaider09" target="_blank" class="group-hover:bg-sky-400 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
                         <i class="fa-brands fa-github text-white text-5xl"></i>
                         <span class="text-white transition-all group-hover:text-interface-100 text-2xl font-semibold">Github</span>
                     </a>
                 </div>
                 <div class="group">
-                    <a href="https://www.upwork.com/freelancers/~0154f6a664c6088549?mp_source=share
-" target="_blank" class="group-hover:bg-lime-500 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
+                    <a href="https://www.upwork.com/freelancers/~0154f6a664c6088549?mp_source=share" target="_blank" class="group-hover:bg-sky-400 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
                         <i class="fa-brands fa-upwork text-white text-5xl"></i>
                         <span class="text-white transition-all group-hover:text-interface-100 text-2xl font-semibold">Upwork</span>
                     </a>
                 </div>
                 <div class="group">
-                    <a href="https://www.fiverr.com/haider424337/write-any-script-in-html-css-javascript-react-js" target="_blank" class="group-hover:bg-lime-500 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
-                        <img width="50" height="50" src="https://img.icons8.com/ios/50/fiverr--v2.png" alt="fiverr--v2" style="filter: brightness(0) invert(1);"/>
+                    <a href="https://www.fiverr.com/haider424337/write-any-script-in-html-css-javascript-react-js" target="_blank" class="group-hover:bg-sky-400 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
+                        <img width="50" height="50" src="https://img.icons8.com/ios/50/fiverr--v2.png" alt="fiverr--v2" style="filter: brightness(0) invert(1);" />
                         <span class="text-white transition-all group-hover:text-interface-100 text-2xl font-semibold">Fiverr</span>
                     </a>
                 </div>
 
                 <div class="group">
-                    <a href="https://www.linkedin.com/in/haider-ali-amjad-a89438236/" target="_blank"class="group-hover:bg-lime-500 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
+                    <a href="https://www.linkedin.com/in/haider-ali-amjad-a89438236/" target="_blank"class="group-hover:bg-sky-400 group-hover:border-transparent transition-all flex space-x-3 p-8 rounded-xl border border-dashed bg-[#0A1429] border-[#3A3E4E] items-center justify-center">
                         <i class="fa-brands fa-linkedin text-white text-5xl"></i>
                         <span class="text-white transition-all group-hover:text-interface-100 text-2xl font-semibold">Linkedin</span>
                     </a>
@@ -146,12 +145,12 @@
                     <div class="swiper-wrapper">
                         @foreach ($services as $service)
                             <div class="swiper-slide">
-                                <div class="border border-transparent hover:border-lime-500 px-7 py-8">
+                                <div class="border border-transparent hover:border-sky-400 px-7 py-8">
                                     <h3 class="mb-6 font-semibold text-2xl text-white text-center">{{ $service->title }}
                                     </h3>
                                     <p class="pb-6 text-white text-center text-base">
                                         {{ substr($service->description, 0, 200) }}</p>
-                                    <a href="{{ url('service-detail/' . $service->id) }}" class="underline flex justify-center hover:text-lime-500 items-center text-white">
+                                    <a href="{{ url('service-detail/' . $service->id) }}" class="underline flex justify-center hover:text-sky-400 items-center text-white">
                                         <span class="">Learn more</span>
                                         <svg class="stroke-white group-hover:stroke-lime-500" width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M7.10156 18.0748L17.2491 7.92383" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -187,7 +186,7 @@
                                 <span class="text-white text-lg">Web developer And SEO Optimizer</span>
                             </div>
                             <div class="flex space-x-2 items-center">
-                                <h3 class="text-7xl leading-none text-lime-500 font-bold">
+                                <h3 class="text-7xl leading-none text-sky-500 font-bold">
                                     7
                                 </h3>
                                 <p class="text-lg text-white font-medium">
@@ -217,7 +216,7 @@
                                         <p class="text-white">{{ $exp->position }}</p>
                                     </div>
                                     <div class="shrink-0">
-                                        <span class="border border-lime-500 text-lime-500 px-3 py-2 rounded-md">{{ $exp->time_stayed }}</span>
+                                        <span class="border border-sky-400 text-sky-500 px-3 py-2 rounded-md">{{ $exp->time_stayed }}</span>
                                     </div>
                                 </li>
                             @endforeach
@@ -233,7 +232,7 @@
                         </div>
                         <ul class="mt-7 flex flex-wrap gap-3">
                             @foreach ($skills as $skill)
-                                <li class="bg-[#16213B] block px-4 py-3 hover:bg-lime-500 hover:text-interface-100 transition rounded-md text-white text-xl">
+                                <li class="bg-[#16213B] block px-4 py-3 hover:bg-sky-500 hover:text-interface-100 transition rounded-md text-white text-xl">
                                     {{ $skill->skill_name }}</li>
                             @endforeach
                         </ul>
@@ -312,10 +311,10 @@
                                             <a href="{{ url('project-detail/' . $project->id) }}" class="text-3xl font-semibold text-white">{{ $project->title }}</a>
                                         </h3>
                                         <span class="flex items-center gap-2 text-white">
-                                            <span class="w-2 h-2 rounded-full inline-block bg-lime-500"></span>
+                                            <span class="w-2 h-2 rounded-full inline-block bg-sky-500"></span>
                                             {{ $project->tags }}
                                         </span>
-                                        <a href="{{ url('project-detail/' . $project->id) }}" class="grid place-content-center transition mt-6 px-3 py-2 border border-lime-500 text-lime-500 text-sm rounded hover:bg-[#68CE30] hover:text-white">
+                                        <a href="{{ url('project-detail/' . $project->id) }}" class="grid place-content-center transition mt-6 px-3 py-2 border border-sky-500 text-sky-500 text-sm rounded hover:bg-[#1E71FF] hover:text-white">
                                             View Project
                                         </a>
                                     </div>
@@ -345,7 +344,7 @@
     <section class="py-12">
         <div class="max-w-md mx-auto rounded-xl shadow-md overflow-hidden md:max-w-7xl py-120" style="background: url('{{ asset('img/testimonial-bg.jpg') }}') no-repeat center center/cover;">
             <div class="max-w-2xl mx-auto text-center mb-10">
-                <h4 class="text-lime-500 text-lg font-medium uppercase mb-2">
+                <h4 class="text-sky-500 text-lg font-medium uppercase mb-2">
                     CUSTOMER REVIEWS
                 </h4>
                 <h2 class="text-white font-bold lg:text-5xl text-4xl">

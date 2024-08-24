@@ -196,7 +196,7 @@
                 <p style="font-size: 1.4vw; color: white;">{{ $cv->title }}</p>
             </div>
 
-            <div style="padding: 0 4vw; margin: 4vw 0;">
+            <div style="padding: 0 4vw; margin: 1vw 0;">
                 <div class="resume_item">
                     <ul>
                         <li style="margin-bottom: 1.5vw;" class="flex items-center">
@@ -226,7 +226,7 @@
                     <ul>
                         @foreach ($skills as $skill)
                             <li class="text-white mb-2">
-                                <div style="margin-bottom: -2.5vw; font-size: 1.3vw;" class="skill_name">
+                                <div style="margin-bottom: -1.5vw; font-size: 1.3vw;" class="skill_name">
                                     {{ $skill->skill_name }}</div>
                                 <br>
                                 <div class="flex items-center">
