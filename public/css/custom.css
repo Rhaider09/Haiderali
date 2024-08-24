@@ -1,0 +1,81 @@
+/* css for tooltip starts here  */
+
+.tooltip {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 110%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* css for tooltip ends here */
+
+
+/* css for newsletter validation/success messages here  */
+
+#newsletter_messages {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    z-index: 5;
+}
+
+@media (max-width:1023px) {
+    #newsletter_messages {
+        right: auto;
+        left: 20px;
+    }
+}
+
+/* css for newsletter validation/success messages ends here  */
+
+/* portfolio css here */
+
+.port_project_insid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#port_project div:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.port_insid2 {
+    width: 60%;
+}
+
+@media (max-width:1023px) {
+    .port_insid2{
+        width: 50%;
+    }
+}
+
+@media (max-width:767px) {
+    .port_insid2{
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+/* portfolio css ends here */
