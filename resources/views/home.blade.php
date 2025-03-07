@@ -187,10 +187,10 @@
                             </div>
                             <div class="flex space-x-2 items-center">
                                 <h3 class="text-7xl leading-none text-sky-500 font-bold">
-                                    7
+                                    2
                                 </h3>
                                 <p class="text-lg text-white font-medium">
-                                    Month <br>
+                                    Years <br>
                                     Experience
                                 </p>
                             </div>
@@ -200,7 +200,7 @@
                             have a passion .
                         </p>
                         <p class="text-white text-lg leading-normal">
-                            I've been working in the web development and seo optimizer field for 7 months,
+                            I've been working in the web development and seo optimizer field for 2 Years,
                             and during that time, I've gained experience
                         </p>
                     </div>
@@ -267,6 +267,27 @@
                                 <img class="h-[50px] hover:opacity-75" src="{{ asset('img/tools/seo.png') }}" alt="Error">
                                 <span class="tooltiptext">SEO</span>
                             </li>
+                            <li class="tooltip">
+                                <img class="h-[50px] hover:opacity-75" src="{{ asset('img/tools/node_js.png') }}" alt="Error">
+                                <span class="tooltiptext">Node.Js</span>
+                            </li>
+                            <li class="tooltip">
+                                <img class="h-[50px] hover:opacity-75" src="{{ asset('img/tools/react_js.png') }}" alt="Error">
+                                <span class="tooltiptext">React.js</span>
+                            </li>
+                            <li class="tooltip">
+                                <img class="h-[50px] hover:opacity-75" src="{{ asset('img/tools/flutter.png') }}" alt="Error">
+                                <span class="tooltiptext">Flutter</span>
+                            </li>
+                            <li class="tooltip">
+                                <img class="h-[50px] hover:opacity-75" src="{{ asset('img/tools/dart.png') }}" alt="Error">
+                                <span class="tooltiptext">Dart</span>
+                            </li>
+                            <li class="tooltip">
+                                <img class="h-[50px] hover:opacity-75" src="{{ asset('img/tools/electron.png') }}" alt="Error">
+                                <span class="tooltiptext">Electron</span>
+                            </li>
+
                         </ul>
                     </div>
                 </div>

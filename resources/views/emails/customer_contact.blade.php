@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h2>{{ $formData->name }} wants to talk to you. Mail form sayedbilal.com.</h2>
+    <h2>{{ $formData->name }} wants to talk to you. Mail form haiderali.com.</h2>
 
     <p><strong>Name:</strong> {{ $formData->name }}</p>
     <p><strong>Email:</strong> {{ $formData->email }}</p>

@@ -17,13 +17,14 @@ class CVSeeder extends Seeder
         $cv = [
             [
                 'name' => 'Haider Ali Amjad',
-                'image' => 'haiderali.jpg',
-                'title' => 'Junior Software Engineer | Freelancer',
+                // 'image' => 'haiderali.jpg',
+                'image' => 'haider.jpg',
+                'title' => 'Software Engineer | Freelancer',
                 'email' => 'haiderali226433@gmail.com',
                 'phone_no' => '+923230436771',
                 'website' => 'haiderali.com',
                 'address' => 'Lahore District, Punjab, Pakistan',
-                'description' => "I'm working as Asp.net Core and Laravel Developer and Responsible for all type of Productions based on Full Stack Environment, from project start to deployment.",
+                'description' => "I'm working as PHP and Laravel Developer and Responsible for all type of Productions based on Full Stack Environment, from project start to deployment.",
                 'uni_image' => 'edu_logo.png',
                 'uni_name' => 'Virual University of Pakistan',
                 'uni_degree' => "Bachelor's degree, Computer Science",

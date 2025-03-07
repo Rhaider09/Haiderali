@@ -140,7 +140,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin: Aside footer for desktop-->
                     <div class="d-none flex-column-auto d-lg-flex justify-content-between mt-10">
                         <div class="opacity-70 font-weight-bold	text-white">
-                            &copy; 2023 Shiners Technology
+                            &copy; 2023 Rj Soft Technology
                         </div>
                         <div class="d-flex">
                             <a href="#" class="text-white">Privacy</a>

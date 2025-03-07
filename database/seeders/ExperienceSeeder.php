@@ -16,6 +16,14 @@ class ExperienceSeeder extends Seeder
     {
         $experience = [
             [
+                'position' => 'Flutter Developer',
+                'company_name' => 'Rj Soft Technologies',
+                'time_given' => 'Part-time',
+                'time_stayed' => 'Aug 2024 - Dec 2024',
+                'address' => 'Lahore, Pakistan',
+                'code_languages' => 'Java C++ firebase',
+            ],
+            [
                 'position' => 'Laravel Developer and PHP Developer',
                 'company_name' => 'Shiners Technologies',
                 'time_given' => 'Full-time',
@@ -31,6 +39,15 @@ class ExperienceSeeder extends Seeder
                 'address' => 'Lahore, Pakistan',
                 'code_languages' => 'SEO Optimization tools',
             ],
+            [
+                'position' => 'Backend Developer',
+                'company_name' => 'Shiners Technologies',
+                'time_given' => 'Full-time',
+                'time_stayed' => 'Oct 2023 - Present',
+                'address' => 'Lahore, Pakistan',
+                'code_languages' => 'Laravel PHP Bootstrap',
+            ],
+
 
         ];
 

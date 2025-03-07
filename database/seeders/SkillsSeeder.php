@@ -15,9 +15,9 @@ class SkillsSeeder extends Seeder
     public function run()
     {
         $skills = [
-            [
-                'skill_name' => 'Asp.net Core Developer',
-            ],
+            // [
+            //     'skill_name' => 'Asp.net Core Developer',
+            // ],
             [
                 'skill_name' => 'Laravel',
             ],
@@ -27,15 +27,15 @@ class SkillsSeeder extends Seeder
             [
                 'skill_name' => 'C#',
             ],
+            // [
+            //     'skill_name' => 'Angular',
+            // ],
             [
-                'skill_name' => 'Angular',
+                'skill_name' => 'React.js',
             ],
-            [
-                'skill_name' => 'React',
-            ],
-            [
-                'skill_name' => 'Vue.js',
-            ],
+            // [
+            //     'skill_name' => 'Vue.js',
+            // ],
             [
                 'skill_name' => 'Node.js',
             ],
@@ -53,6 +53,12 @@ class SkillsSeeder extends Seeder
             ],
             [
                 'skill_name' => 'SEO Tools',
+            ],
+            [
+                'skill_name' => 'C++',
+            ],
+            [
+                'skill_name' => 'Java',
             ],
         ];
 
