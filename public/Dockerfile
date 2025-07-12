@@ -1,0 +1,35 @@
+# Use the official PHP image with Apache
+FROM php:8.2-apache
+
+# Set working directory
+WORKDIR /var/www/html
+
+# Install system dependencies and PHP extensions
+RUN apt-get update && apt-get install -y \
+    git \
+    unzip \
+    zip \
+    libzip-dev \
+    libonig-dev \
+    libxml2-dev \
+    curl \
+    && docker-php-ext-install pdo pdo_mysql zip mbstring exif pcntl bcmath
+
+# Enable Apache mod_rewrite
+RUN a2enmod rewrite
+
+# Copy Laravel project to container
+COPY . /var/www/html
+
+# Set permissions
+RUN chown -R www-data:www-data /var/www/html \
+    && chmod -R 755 /var/www/html/storage
+
+# Copy custom Apache config (optional)
+# COPY ./apache/laravel.conf /etc/apache2/sites-available/000-default.conf
+
+# Install Composer
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+
+# Install Laravel dependencies
+RUN composer install --no-interaction --prefer-dist --optimize-autoloader
